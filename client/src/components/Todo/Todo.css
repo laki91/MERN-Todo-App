@@ -1,0 +1,61 @@
+.card-body {
+    border: 2px solid maroon;
+    max-height: 420px;
+    max-width: 380px;
+    border-radius: 20px;
+}
+
+
+.edit {
+    text-decoration:  none;
+    color: black;
+}
+.edit:hover {
+    color: rgb(12, 11, 11);
+}
+
+.complete {
+    text-decoration: line-through 2px solid red;
+    /* font-size: 20px; */
+}
+
+.incomplete {
+    text-decoration: none;
+    /* font-size: 20px; */
+}
+
+.statusGreen {
+    color: green;
+    font-size: 20px;
+}
+
+.StatusRed {
+    color: red;
+    font-size: 20px;
+}
+
+#name {
+    text-align: center;
+}
+
+#description {
+    margin-top: 1.5rem;
+}
+
+#status {
+    text-align: right;
+    margin: 1.5rem;
+}
+
+#undo {
+    color: white;
+    background-color: rgb(55, 0, 60);
+}
+
+#done:hover {
+    background-color: rgb(8, 167, 8);
+}
+
+#undo:hover {
+    background-color: rgb(120, 0, 130) ;
+}

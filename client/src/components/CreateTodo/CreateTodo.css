@@ -1,0 +1,14 @@
+.errorBorder {
+    border: 1px solid red;
+}
+
+.errorMsg {
+    color: red;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#smal {
+    color: red;
+}
